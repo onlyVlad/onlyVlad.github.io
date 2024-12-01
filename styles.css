@@ -114,7 +114,7 @@ body {
     z-index: -1;
 }
 
-/* About Section */
+/* History Section */
 .about-section {
     display: flex;
     align-items: center;
@@ -233,6 +233,17 @@ body {
     color: #cccccc;
 }
 
+.more-info-section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-section,
@@ -287,8 +298,8 @@ body {
         top: 50%;
         left: 60%;
         transform: translate(-50%, -50%);
-        width: 320px;
-        height: 360px;
+        width: 300px;
+        height: 270px;
         border-radius: 10% 0 0 10%;
         background: linear-gradient(to right, rgba(255, 202, 153, 0.4), transparent);
         z-index: -1;
@@ -297,5 +308,17 @@ body {
         width: 100%;
         height: 100%;
     }
+    
+    .more-info-section {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
+
